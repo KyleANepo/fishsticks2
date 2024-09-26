@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FishTarget : MonoBehaviour
+public class Cameo : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public float speed = 0.5f;
-    public float life = 500f;
+    public List<string> strings = new List<string>();
 
+    // Start is called before the first frame update
     void Start()
     {
         
